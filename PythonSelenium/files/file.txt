@@ -1,0 +1,47 @@
+terminal commands:
+cd PythonSelenium/pytest_framework
+pytest filename.py - run the file
+-v : to get verborsity
+-h : to get help otions
+-rA : to get all the results
+--junit-xml : to generate junit report.
+-rA --junit-xml="./files/junit_report.xml" : to generate the xml report and save it in the specified location.
+--html : to generate html report
+-rA --html="./files/test_report.html" : to generate html report and save it in the specified location.
+
+------------------------------------------------------------------------------------------------------------------------
+pip commands:
+=============
+
+1) pip --version : to get pip version.
+2) pip install package_name : to install a package.
+3) pip install package_name== version : to install the package of specified version.
+4) pip install --upgrade package_name : to upgrade the package to the latest version.
+5) pip uninstall package_name : to uninstall the package.
+6) pip list : to get the list of packages in pip.
+7) pip show package_name : to get the details of the package in the pip.
+8) package_name --version : to get the package version.
+9) pip install --upgrade pip : to upgrade the pip to the latest version.
+10) python -m venv venv_name : to create a new virtual environment.
+------------------------------------------------------------------------------------------------------------------------
+Links:
+======
+http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html
+D:\Programming\Python\PythonSelenium\files\Demo.html
+D:\Programming\Python\PythonSelenium\files\example1.html
+https://demowebshop.tricentis.com/
+https://the-internet.herokuapp.com/basic_auth
+https://www.foundit.in/
+https://testautomationpractice.blogspot.com/
+https://saucedemo.com
+https://google.com
+https://www.globalsqa.com/demo-site/select-dropdown-menu/
+https://omayo.blogspot.com/
+https://www.justdial.com/
+https://only-testing-blog.blogspot.com/2014/01/textbox.html
+https://jqueryui.com/
+https://www.globalsqa.com/demo-site/frames-and-windows/#iFrame
+
+video lectures:
+https://youtu.be/AVJX8JSm2-U?si=Ud8NIOGIr32Np4Tf
+------------------------------------------------------------------------------------------------------------------------

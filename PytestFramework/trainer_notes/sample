@@ -1,0 +1,42 @@
+pytest is a unit testing framework, it can test a small unit in any program
+Advantages : We can group  the testcases, generate reports, we can use dependencies here.
+
+First thing, we have to install Pytest first
+--> Go to command prompt --> pip install pytest  (This will install the new version of pytest)
+
+To check if pytest is properly installed or not --> pytest --version
+If we get the version, then pytest is installed properly
+
+#---------------------------------------------------------------------------
+Rules:
+1. Filename (module) should always start with test_ or end with _test
+        Eg : test_filename.py or filename_test.py
+2. Classname should always start with Test
+        Eg : class TestClassname
+3. Function name should always start with test_
+        Eg : def test_functionname():
+
+We should follow these conventions because, pytest will automatically recognize the files
+starting with test_, automatically recognizes the classes starting with Test,
+automatically recognizes the functions starting with test_
+
+To execute --> right click --> open in --> terminal --> pytest test_filename.py
+
+#------------------------------------------------------
+-v --> verbocity. This get the detailed explanation
+-s --> scripting. This will print all the print statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
